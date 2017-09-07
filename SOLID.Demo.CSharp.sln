@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - JCC", "2 - JCC", "{19A48633-EF1F-4376-87B8-0F4D109F6E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - SRP", "3 - SRP", "{5C88575A-97D0-4C3B-98DA-F04C044B0C15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - OCP", "4 - OCP", "{44BEA5AB-1276-40E3-8848-6781B079CBD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - LSP", "5 - LSP", "{46425F8F-060E-4EE5-9766-B96C68DF8326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - ISP", "6 - ISP", "{70876855-5EB6-439B-8BC7-7FE678B6ABB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - DIP", "7 - DIP", "{F6C845B9-FA5D-4EA4-9014-9CC6E93B7C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Converters", "SOLID.Demo.Converters\SOLID.Demo.Converters.csproj", "{CF7C1E47-D2E2-4057-8318-7563724E6503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - TDD", "1 - TDD", "{45056D55-E763-4324-8596-26041BB61304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Tests", "SOLID.Demo.Tests\SOLID.Demo.Tests.csproj", "{112EF255-D944-494C-9897-2DB6344F1FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7C1E47-D2E2-4057-8318-7563724E6503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7C1E47-D2E2-4057-8318-7563724E6503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7C1E47-D2E2-4057-8318-7563724E6503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7C1E47-D2E2-4057-8318-7563724E6503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{112EF255-D944-494C-9897-2DB6344F1FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{112EF255-D944-494C-9897-2DB6344F1FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{112EF255-D944-494C-9897-2DB6344F1FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{112EF255-D944-494C-9897-2DB6344F1FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF7C1E47-D2E2-4057-8318-7563724E6503} = {19A48633-EF1F-4376-87B8-0F4D109F6E09}
+		{112EF255-D944-494C-9897-2DB6344F1FD3} = {45056D55-E763-4324-8596-26041BB61304}
+	EndGlobalSection
+EndGlobal
