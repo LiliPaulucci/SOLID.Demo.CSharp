@@ -1,7 +1,7 @@
 # SOLID.Demo.CSharp
 A simple exercise to demonstrate some approaches like: Clean Code, TDD, SOLID and others.
 
-This solution demonstrate how to apply TDD and SOLID, principle by principle. 
+This solution demonstrates how to apply TDD and SOLID, principle by principle. 
 
 Problem: Receive an Arabic Number and answer with the Cardinal Number.
 Ex.: Receive "4" and Return "Four"
