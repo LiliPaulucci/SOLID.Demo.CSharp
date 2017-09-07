@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.Demo.Converters.SRP
+namespace SOLID.Demo.Converters.OCP
 {
     public static class MathUtils
     {

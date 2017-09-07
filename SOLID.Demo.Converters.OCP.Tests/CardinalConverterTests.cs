@@ -1,78 +1,77 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SOLID.Demo.Converters.SRP;
 
-namespace SOLID.Demo.Tests
+namespace SOLID.Demo.Converters.OCP.Tests
 {
     [TestClass]
-    public class ArabicToCardinalConverterTests
+    public class CardinalConverterTests
     {
-        ArabicToCardinalConverter arabicToCadinalConverter;
+        CardinalConverter arabicToCadinalConverter;
 
         [TestInitialize]
-        public void Initialize()
+        public void OCP_Initialize()
         {
             arabicToCadinalConverter = new ArabicToCardinalConverter();
         }
 
         [TestMethod]
-        public void ShouldNotBeNullWhenCreateInstance()
+        public void OCP_ShouldNotBeNullWhenCreateInstance()
         {
             Assert.IsNotNull(arabicToCadinalConverter);
         }
 
         [TestMethod]
-        public void ShouldReturnStringWhenReceiveInteger()
+        public void OCP_ShouldReturnStringWhenReceiveInteger()
         {
             Assert.IsFalse(string.IsNullOrEmpty(arabicToCadinalConverter.Convert(4)));
         }
 
         [TestMethod]
-        public void ShouldReturnZeroWhenReceive0()
+        public void OCP_ShouldReturnZeroWhenReceive0()
         {
             Assert.AreEqual("Zero", arabicToCadinalConverter.Convert(0));
         }
 
         [TestMethod]
-        public void ShouldReturnFourWhenReceive4()
+        public void OCP_ShouldReturnFourWhenReceive4()
         {
             Assert.AreEqual("Four", arabicToCadinalConverter.Convert(4));
         }
 
         [TestMethod]
-        public void ShouldReturnTenWhenReceive10()
+        public void OCP_ShouldReturnTenWhenReceive10()
         {
             Assert.AreEqual("Ten", arabicToCadinalConverter.Convert(10));
         }
 
         [TestMethod]
-        public void ShouldReturnFourteenWhenReceive14()
+        public void OCP_ShouldReturnFourteenWhenReceive14()
         {
             Assert.AreEqual("Fourteen", arabicToCadinalConverter.Convert(14));
         }
 
         [TestMethod]
-        public void ShouldReturnThirtyFiveWhenReceive35()
+        public void OCP_ShouldReturnThirtyFiveWhenReceive35()
         {
-            Assert.AreEqual("ThirtyFive", arabicToCadinalConverter.Convert(35));
+            Assert.AreEqual("Thirty Five", arabicToCadinalConverter.Convert(35));
         }
 
         [TestMethod]
-        public void ShouldReturnFortyWhenReceive40()
+        public void OCP_ShouldReturnFortyWhenReceive40()
         {
             Assert.AreEqual("Fourty", arabicToCadinalConverter.Convert(40));
         }
-        
+
         [TestMethod]
         [ExpectedException(typeof(NotSupportedException), "Numbers should be Integers between 0 and 99.")]
-        public void ShouldReturnExceptionWhenNumberIsLessThan0()
+        public void OCP_ShouldReturnExceptionWhenNumberIsLessThan0()
         {
             arabicToCadinalConverter.Convert(-2);
         }
 
         [TestMethod]
         [ExpectedException(typeof(NotSupportedException), "Numbers should be Integers between 0 and 99.")]
-        public void ShouldReturnExceptionWhenNumberIs100()
+        public void OCP_ShouldReturnExceptionWhenNumberIs100()
         {
             arabicToCadinalConverter.Convert(100);
         }

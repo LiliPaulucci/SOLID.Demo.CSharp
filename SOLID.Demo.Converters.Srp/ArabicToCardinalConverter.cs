@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.Demo.Converters.Srp
+namespace SOLID.Demo.Converters.SRP
 {
     /*
      * SRP - Single Responsability Principle
@@ -25,7 +25,7 @@ namespace SOLID.Demo.Converters.Srp
             String OutcomeNumber;
 
             if (MathUtils.IsATen(IncomeNumber))
-                OutcomeNumber = CardinalUnits[IncomeNumber];
+                OutcomeNumber = CardinalTens[MathUtils.GetQuotientOfDivisionBy10(IncomeNumber)];
             else if (IncomeNumber < 20)
                 OutcomeNumber = CardinalUnits[IncomeNumber];
             else
@@ -37,8 +37,7 @@ namespace SOLID.Demo.Converters.Srp
             }
 
             return OutcomeNumber;
-        }
 
-        
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace SOLID.Demo.Converters
             String OutcomeNumber;
 
             if (IsATen(IncomeNumber))
-                OutcomeNumber = CardinalUnits[IncomeNumber];
+                OutcomeNumber = CardinalTens[GetQuotientOfDivisionBy10(IncomeNumber)];
             else if (IncomeNumber < 20)
                 OutcomeNumber = CardinalUnits[IncomeNumber];
             else

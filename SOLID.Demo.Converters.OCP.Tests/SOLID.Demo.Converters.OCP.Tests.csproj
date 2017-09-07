@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{112EF255-D944-494C-9897-2DB6344F1FD3}</ProjectGuid>
+    <ProjectGuid>{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SOLID.Demo.Tests</RootNamespace>
-    <AssemblyName>SOLID.Demo.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>SOLID.Demo.Converters.OCP.Tests</RootNamespace>
+    <AssemblyName>SOLID.Demo.Converters.OCP.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,7 +16,6 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ArabicToCardinalConverterTests.cs" />
+    <Compile Include="CardinalConverterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SOLID.Demo.Converters.Srp\SOLID.Demo.Converters.SRP.csproj">
-      <Project>{89739485-2537-44db-ac3e-ef8a87928d8a}</Project>
-      <Name>SOLID.Demo.Converters.SRP</Name>
+    <ProjectReference Include="..\SOLID.Demo.Converters.OCP\SOLID.Demo.Converters.OCP.csproj">
+      <Project>{65a3cc15-693c-4bbb-bbfb-16125bd738c1}</Project>
+      <Name>SOLID.Demo.Converters.OCP</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
