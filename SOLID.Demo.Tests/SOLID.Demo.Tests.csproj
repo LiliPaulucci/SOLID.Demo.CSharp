@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SOLID.Demo.Converters\SOLID.Demo.Converters.csproj">
-      <Project>{CF7C1E47-D2E2-4057-8318-7563724E6503}</Project>
-      <Name>SOLID.Demo.Converters</Name>
+    <ProjectReference Include="..\SOLID.Demo.Converters.Srp\SOLID.Demo.Converters.Srp.csproj">
+      <Project>{89739485-2537-44db-ac3e-ef8a87928d8a}</Project>
+      <Name>SOLID.Demo.Converters.Srp</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

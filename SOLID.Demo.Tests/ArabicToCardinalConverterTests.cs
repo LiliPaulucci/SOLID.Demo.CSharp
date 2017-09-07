@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SOLID.Demo.Converters;
+using SOLID.Demo.Converters.Srp;
 
 namespace SOLID.Demo.Tests
 {

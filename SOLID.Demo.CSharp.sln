@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - TDD", "1 - TDD", "{4505
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Tests", "SOLID.Demo.Tests\SOLID.Demo.Tests.csproj", "{112EF255-D944-494C-9897-2DB6344F1FD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Converters.Srp", "SOLID.Demo.Converters.Srp\SOLID.Demo.Converters.Srp.csproj", "{89739485-2537-44DB-AC3E-EF8A87928D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{112EF255-D944-494C-9897-2DB6344F1FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112EF255-D944-494C-9897-2DB6344F1FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{112EF255-D944-494C-9897-2DB6344F1FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89739485-2537-44DB-AC3E-EF8A87928D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89739485-2537-44DB-AC3E-EF8A87928D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89739485-2537-44DB-AC3E-EF8A87928D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89739485-2537-44DB-AC3E-EF8A87928D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CF7C1E47-D2E2-4057-8318-7563724E6503} = {19A48633-EF1F-4376-87B8-0F4D109F6E09}
 		{112EF255-D944-494C-9897-2DB6344F1FD3} = {45056D55-E763-4324-8596-26041BB61304}
+		{89739485-2537-44DB-AC3E-EF8A87928D8A} = {5C88575A-97D0-4C3B-98DA-F04C044B0C15}
 	EndGlobalSection
 EndGlobal
