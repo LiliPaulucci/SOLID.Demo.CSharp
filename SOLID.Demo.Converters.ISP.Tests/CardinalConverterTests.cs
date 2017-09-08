@@ -6,7 +6,7 @@ namespace SOLID.Demo.Converters.ISP.Tests
     [TestClass]
     public class CardinalConverterTests
     {
-        CardinalConverter arabicToCadinalConverter;
+        ArabicToCardinalConverter arabicToCadinalConverter;
 
         [TestInitialize]
         public void ISP_Initialize()

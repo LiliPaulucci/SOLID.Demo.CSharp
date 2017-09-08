@@ -6,27 +6,24 @@ using System.Threading.Tasks;
 
 namespace SOLID.Demo.Converters.DIP
 {
-    public abstract class CardinalConverter
+    /*
+     * DIP - Dependency Inversion Principle
+     * 
+     * Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+     * */
+
+    public class CardinalConverter
     {
-        public virtual String Convert(int number)
+        private readonly INumeralConverter _numeralConverter;
+
+        public CardinalConverter(INumeralConverter numeralConverter)
         {
-            return String.Empty;
-        }
-        public virtual String Convert(string number)
-        {
-            return String.Empty;
+            _numeralConverter = numeralConverter;
         }
 
-        //protected abstract String Convert<T>(T number);
-
-        protected virtual string GetCardinalTens(int position)
+        public string Convert (string numeral)
         {
-            return new string[] { "Zero", "Ten", "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" }[position];
-        }
-
-        protected virtual string GetCardinalUnits(int position)
-        {
-            return new string[] { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eightteen", "Nineteen" }[position];
+            return _numeralConverter.Convert(numeral);
         }
     }
 }
