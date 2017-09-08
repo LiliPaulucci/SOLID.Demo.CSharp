@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Converters.LSP",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Converters.OCP.Tests", "SOLID.Demo.Converters.OCP.Tests\SOLID.Demo.Converters.OCP.Tests.csproj", "{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.Demo.Converters.LSP.Tests", "SOLID.Demo.Converters.LSP.Tests\SOLID.Demo.Converters.LSP.Tests.csproj", "{601C323B-6955-4243-BCF7-0975C439A4DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601C323B-6955-4243-BCF7-0975C439A4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601C323B-6955-4243-BCF7-0975C439A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601C323B-6955-4243-BCF7-0975C439A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601C323B-6955-4243-BCF7-0975C439A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +76,6 @@ Global
 		{65A3CC15-693C-4BBB-BBFB-16125BD738C1} = {44BEA5AB-1276-40E3-8848-6781B079CBD7}
 		{02E1F181-DB1B-4BA9-8656-85C4D3A99CBE} = {46425F8F-060E-4EE5-9766-B96C68DF8326}
 		{8C4553B1-8277-4662-B06D-A7FB0D8F7BD5} = {44BEA5AB-1276-40E3-8848-6781B079CBD7}
+		{601C323B-6955-4243-BCF7-0975C439A4DA} = {46425F8F-060E-4EE5-9766-B96C68DF8326}
 	EndGlobalSection
 EndGlobal
