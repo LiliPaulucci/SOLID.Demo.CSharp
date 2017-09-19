@@ -14,4 +14,6 @@ The fifth folder is the same solution using LSP - Liskov Substitution Principle.
 The sixth folder is the same solution using ISP - Interface Segregation Principle.
 The seventh folder is the same solution using DIP - Dependency Inversion Principle.
 
-The idea is to use the same tests for each principle, changing only the namespace of the main class.
+The same solution was developed in:
+Java: https://github.com/LiliPaulucci/SOLID.Demo.Java
+Swift: https://github.com/LiliPaulucci/SOLID.Demo.Swift
